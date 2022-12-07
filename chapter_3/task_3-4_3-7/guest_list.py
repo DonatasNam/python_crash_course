@@ -26,6 +26,35 @@ print("I have aquired a bigger table")
 invites.insert(0, "Ashley Johnson")
 invites.insert(2, "Liam O'Brien")
 invites.append("Travis Willingham")
-
+#task 3-9
+print(f"Ammount of people: {len(invites)}")
+##############
 for i in invites:
     print(f"{i} {invitation_message}")
+
+# task 3-7
+
+print("It appears i can only host 2 people")
+
+print(f"Sorry, {invites.pop()} you are uninvited")
+print(f"Sorry, {invites.pop()} you are uninvited")
+print(f"Sorry, {invites.pop()} you are uninvited")
+print(f"Sorry, {invites.pop()} you are uninvited")
+print(f"Sorry, {invites.pop()} you are uninvited")
+#task 3-9
+print(f"Ammount of people: {len(invites)}")
+##############
+print(f"{invites[0]} you are still invited")
+print(f"{invites[1]} you are still invited")
+#task 3-9
+print(f"Ammount of people: {len(invites)}")
+##############
+del invites[1]
+del invites[0]
+#task 3-9
+print(f"Ammount of people: {len(invites)}")
+##############
+print(invites)
+#task 3-9
+print(f"Ammount of people: {len(invites)}")
+##############
