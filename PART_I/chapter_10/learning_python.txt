@@ -1,0 +1,3 @@
+I learned to make and manipulate lists in Python
+I learned about dictionaries in Python
+I learned about classes in Python
