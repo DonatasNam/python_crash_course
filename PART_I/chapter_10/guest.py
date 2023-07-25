@@ -1,3 +1,5 @@
+
+#10-1 to 10-5
 class Guest:
     def __init__(self):
         pass
@@ -5,6 +7,7 @@ class Guest:
     def get_name(self):
         print("Hello plese enter your name:")
         self.name = input()
+        return self.name
 
     def save_name(self):
         try:
@@ -16,5 +19,10 @@ class Guest:
 
 guest = Guest()
 
-guest.get_name()
-guest.save_name()
+
+while True:
+    print("enter 'q' to quit")
+    user_input = guest.get_name()
+    if user_input == "q":
+        break
+    guest.save_name()
